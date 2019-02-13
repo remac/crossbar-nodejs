@@ -1,0 +1,22 @@
+{
+  "get_faxes": {
+    "method": "GET",
+    "url": "/accounts/{{account_id}}/faxes/inbox",
+    "auth_required": true
+  },
+  "get_incoming_fax": {
+    "method": "GET",
+    "url": "/accounts/{{account_id}}/faxes/inbox/{{fax_id}}",
+    "auth_required": true
+  },
+  "download_incoming_fax": {
+    "method": "GET",
+    "url": "/accounts/{{account_id}}/faxes/inbox/{{fax_id}}/attachment",
+    "auth_required": true
+  },
+  "create_outgoing_fax": {
+    "method": "PUT",
+    "url": "/accounts/{{account_id}}/faxes",
+    "auth_required": true
+  }
+}
