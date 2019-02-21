@@ -4,7 +4,7 @@
         "url": "/accounts/{{account_id}}",
         "auth_required": true
     },
-    "get_account": {
+    "get_account_id": {
         "method": "GET",
         "url": "/account",
         "auth_required": true
