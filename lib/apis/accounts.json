@@ -4,6 +4,11 @@
         "url": "/accounts/{{account_id}}",
         "auth_required": true
     },
+    "get_account": {
+        "method": "GET",
+        "url": "/account",
+        "auth_required": true
+    },
     "create_account": {
         "method": "PUT",
         "url": "/accounts/{{account_id}}",
