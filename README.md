@@ -1,6 +1,6 @@
-# Crossbar.js
+# Crossbar-nodejs
 
-Crossbar.js is a node.js sdk for Kazoo.
+Crossbar-nodejs is a node.js sdk for Kazoo.
 
 Current apis:
 accounts, devices, faxes, users, user_auth.
@@ -8,7 +8,7 @@ accounts, devices, faxes, users, user_auth.
 # Examples
 
 ```javascript
-var Crossbar = require('crossbar');
+var Crossbar = require('crossbar-nodejs');
 
 var cb = new Crossbar({
    'url': "http://127.0.0.1"
