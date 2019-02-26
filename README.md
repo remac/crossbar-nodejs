@@ -38,7 +38,7 @@ cb.api.user_auth.create_user_auth({
 | Key | Description | Default |
 | --- | ----------- | ------- |
 | url | server url | "http://127.0.0.1" |
-| version | api version | "v1" |
+| version | api version | "v2" |
 | port | server port | 8000 |
 
 # Changelog
