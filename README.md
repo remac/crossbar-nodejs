@@ -3,7 +3,7 @@
 Crossbar.js is a node.js sdk for Kazoo.
 
 Current apis:
-accounts, devices, users, user_auth.
+accounts, devices, faxes, users, user_auth.
 
 # Examples
 
