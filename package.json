@@ -1,12 +1,12 @@
 {
-  "name": "crossbar",
-  "version": "1.0.0",
-  "homepage": "https://github.com/macpie/crossbar-nodejs",
+  "name": "crossbar-nodejs",
+  "version": "2.0.0",
+  "homepage": "https://github.com/kazoo-community/crossbar-nodejs",
   "description": "Node.js SDK for Kazoo apis",
   "main": "./lib/crossbar.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/macpie/crossbar-nodejs.git"
+    "url": "https://github.com/kazoo-community/crossbar-nodejs"
   },
   "keywords": [
     "api",
@@ -17,7 +17,7 @@
   "author": "Peter Defebvre",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/macpie/crossbar-nodejs/issues"
+    "url": "https://github.com/kazoo-community/crossbar-nodejs/issues"
   },
   "dependencies": {
     "mustache": "^1.1.0",
