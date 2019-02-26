@@ -2,8 +2,6 @@
 
 Crossbar.js is a node.js sdk for Kazoo.
 
-APIS descriptions: https://2600hz.atlassian.net/wiki/display/APIs/Developer+APIs
-
 Current apis:
 accounts, devices, users, user_auth.
 
@@ -45,6 +43,9 @@ cb.api.user_auth.create_user_auth({
 
 # Changelog
 
+v2.0.0:
+
+* Added fax apis
 
 v1.0.0:
 
