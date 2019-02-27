@@ -1,4 +1,5 @@
 const chai = require('chai');
+const Crossbar = require('../lib/crossbar');
 
 const expect = chai.expect;
 
@@ -7,7 +8,12 @@ describe('Crossbar Tests', () => {
 
     });
 
-    it ('should work', () => {
-        expect(1).to.equal(1, `Doesn't work`);
+    it ('Should initialize with defaults', (done) => {
+        try {
+            const cb = Crossbar();
+            done();
+        } catch(err) {
+            done(err);
+        }
     });
 });
