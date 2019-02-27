@@ -1,0 +1,13 @@
+{
+    "get_cdrs": {
+      "method": "GET",
+      "url": "/accounts/{{account_id}}/cdrs",
+      "auth_required": true
+    },
+    "get_cdr": {
+      "method": "GET",
+      "url": "/accounts/{{account_id}}/cdrs/{{cdr_id}}",
+      "auth_required": true
+    }
+  }
+  
