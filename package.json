@@ -20,8 +20,9 @@
     "url": "https://github.com/kazoo-community/crossbar-nodejs/issues"
   },
   "dependencies": {
-    "mustache": "^1.1.0",
-    "request": " >= 2.33.0"
+    "mustache": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   },
   "engine": "node >= 0.10.0"
 }
